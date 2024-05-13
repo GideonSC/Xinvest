@@ -64,21 +64,20 @@ img {
 }
 .Address__box {
   display: grid;
-  grid-template-columns: max-content 1fr;
   column-gap: 0.5rem;
   padding: 1.125rem 1rem;
   background-color: #000000;
   margin-top: 1rem;
   border-radius: 0.5rem;
-  text-align: center;
+  text-align: left;
   color: white !important;
   font-weight: bold;
-  font-family: Cambria;
+  font-family: sans-serif;
   
 }
+
 .QR__box {
     display: grid;
-    grid-template-columns: max-content 1fr;
     column-gap: 0.5rem;
     padding: 1.125rem 1rem;
     background-color: #ffffff;
@@ -89,6 +88,12 @@ img {
     font-weight: bold;
     font-family: Cambria;
     
+  }
+  .QR__box img{
+    height: 7cm;
+    width: 7cm;
+    margin-left: -4cm;
+   display: block;
   }
 
 .login__icon {
