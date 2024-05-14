@@ -90,11 +90,28 @@ img {
     
   }
   .QR__box img{
-    height: 7cm;
-    width: 7cm;
-    margin-left: -4cm;
-   display: block;
+    height: 6cm;
+    width: 6cm;
+ 
   }
+  .hidden {
+    display: none;
+  }
+  
+  .alert {
+    background-color: #4AD395;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 10px;
+    position: fixed;
+    top: 220px;
+    left: 45%;
+    transform: translateX(-50%);
+  }
+  
+  
+  
 
 .login__icon {
   font-size: 1.5rem;
