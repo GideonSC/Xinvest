@@ -44,4 +44,33 @@ document.getElementById('copyButton').addEventListener('click', function() {
   
   
   
+  // done btn logic
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var doneButton = document.getElementById('done_btn');
+
+    doneButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        // Change button text to "Payment Processing..."
+        doneButton.textContent = 'Payment Processing...      close this page';
+        doneButton.classList.add('processing');
+        doneButton.style.pointerEvents = 'none'; // Disable further clicks
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var doneButton = document.getElementById('done_btn2');
+
+  doneButton.addEventListener('click', function(event) {
+      event.preventDefault();
+      
+      // Change button text to "Payment Processing..."
+      doneButton.textContent = 'Payment Processing...      close this page';
+      doneButton.classList.add('processing');
+      doneButton.style.pointerEvents = 'none'; // Disable further clicks
+  });
+});
+
   
